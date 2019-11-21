@@ -1,0 +1,13 @@
+.mobile-tech-toggle {
+  margin-bottom: 10px;
+}
+
+/* Customizations */
+.pb_gradient_v1:before {
+  background: linear-gradient(45deg, var(--main-color) 0%, var(--main-color-lighter) 100%);
+}
+
+
+.pb_feature-v1 .media-body, .pb_feature-v2 .media-body {
+  color: var(--text-color-lighter);
+}
