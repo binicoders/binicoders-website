@@ -11,3 +11,11 @@
 .pb_feature-v1 .media-body, .pb_feature-v2 .media-body {
   color: var(--text-color-lighter);
 }
+
+.navbar:not(.awake) .navbar-brand.colored {
+  display: none;
+}
+
+.navbar.awake .navbar-brand.white {
+  display: none;
+}
