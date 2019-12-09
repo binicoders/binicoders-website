@@ -19,3 +19,24 @@
 .navbar.awake .navbar-brand.white {
   display: none;
 }
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.pb-footer {
+  color: #333;
+}
+
+.simulators {
+  display: flex;
+}
+.simulators img {
+  width: 65%;
+}
+.simulators img.ios {
+  margin-left: -30%
+}
+.pl-50 {
+  padding-left: 50px;
+}
