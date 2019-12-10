@@ -57,6 +57,9 @@
 .logo {
   width: 200px;
 }
+.contact {
+  padding: 5em 2em !important;
+}
 
 @media (max-width: 768px) {
   .logo {
