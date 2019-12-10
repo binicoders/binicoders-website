@@ -40,3 +40,36 @@
 .pl-50 {
   padding-left: 50px;
 }
+
+.pb_sm_py_cover .sub-heading, .pb_md_py_cover .sub-heading, .pb_lg_py_cover .sub-heading, .pb_xl_py_cover .sub-heading {
+  max-width: 100%;
+}
+
+.navbar-collapse {
+  text-align: right;
+  flex-basis: auto;
+  flex-grow: 0;
+}
+.navbar-nav {
+  background: transparent !important;
+}
+
+.logo {
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 160px;
+  }
+  .quote-cta span{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  } 
+}
+
+@media (max-width: 574px) {
+  .pb_feature-v1 {
+    text-align: center;
+  }
+}
